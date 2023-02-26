@@ -1,7 +1,6 @@
 # Get-Invent
 Модуль для удаленного и локального просмотра характеристик физического оборудования: **OS, Mother Board, CPU, RAM, Physical and Logical Disk, Video Board, Network Adapter**.
 
-`Import-Module .\Get-Invent`
 `Get-Help Get-Invent` \
 `Get-Invent localhost` по умолчанию \
 `Get-Invent 192.168.1.1`
