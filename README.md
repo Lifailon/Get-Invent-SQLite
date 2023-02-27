@@ -6,4 +6,4 @@
 `Get-Invent localhost` по умолчанию \
 `Get-Invent -Full server-01` полный отчет (версия 1.1)
 
-![Image alt](https://github.com/Lifailon/Get-Invent/blob/rsa/Screen/Example-1.0.jpg)
+![Image alt](https://github.com/Lifailon/Get-Invent/blob/rsa/Screen/Example-1.1.jpg)
