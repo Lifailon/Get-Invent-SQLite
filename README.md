@@ -5,9 +5,14 @@
 `Get-Module Get-Invent | fl Description` \
 `Get-Invent localhost` по умолчанию \
 `Get-Invent -srv server-01` \
-`Get-Invent -Full server-01` полный отчет (версия 1.1)
+`Get-Invent -Full server-01` полный отчет (версия 1.1) \
 `Get-Invent -Full -SQL server-01` вывод в базу данных SQLite (версия 1.2)
 
 ![Image alt](https://github.com/Lifailon/Get-Invent/blob/rsa/Screen/Example-1.2.jpg)
 
 ## Out to database SQLite
+
+Зависимости:
+**Модуль [MySQLite](https://github.com/jdhitsolutions/MySQLite)**
+
+При создании БД проверяется наличие 
