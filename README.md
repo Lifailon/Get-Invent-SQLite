@@ -20,7 +20,8 @@
 
 Создать лист, который можно использовать в будущем: \
 `$HostsList = "$home\desktop\Host-List.txt"` \
-`@("server-01","server-02","server-03") | Out-File $HostsList` \
+`@("server-01","server-02","server-03") | Out-File $HostsList`
+
 Прочитать список серверов и добавить его в цикл: \
 `$Hosts = Get-Content $HostsList` \
 `foreach ($srv in $hosts) {` \
