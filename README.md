@@ -24,3 +24,7 @@
 `foreach ($srv in $hosts) {` \
 `Get-Invent -srv $srv -Full -SQL` \
 `}`
+
+**Пример базы данных [Get-Invent.db](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/Get-Invent.db)**
+
+![Image alt](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/CPU.jpg)
