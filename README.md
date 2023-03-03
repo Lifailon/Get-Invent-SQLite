@@ -25,6 +25,12 @@
 `Get-Invent -srv $srv -Full -SQL` \
 `}`
 
-**Пример базы данных [Get-Invent.db](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/Get-Invent.db)**
+**Пример базы данных: [Get-Invent.db](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/Get-Invent.db)**
 
 ![Image alt](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/CPU.jpg)
+
+![Image alt](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/Memory.jpg)
+
+![Image alt](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/PhysicalDisk.jpg)
+
+![Image alt](https://github.com/Lifailon/Get-Invent-SQLite/blob/rsa/Database/VideoCard.jpg)
