@@ -18,8 +18,8 @@
 
 ### Для опраса сразу нескольких хостов, и наполнения базы данных используйте слующую конструкцию:
 
-`$list = @("server-01","server-02","server-03")` \
 `$HostsList = "$home\desktop\Host-List.txt"` \
+`@("server-01","server-02","server-03")` | Out-File $HostsList \
 `$Hosts = Get-Content $HostsList` \
 `foreach ($srv in $hosts) {` \
 `Get-Invent -srv $srv -Full -SQL` \
